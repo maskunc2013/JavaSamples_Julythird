@@ -1,0 +1,838 @@
+{
+  "id": "56d707a3-4680-4469-9d9d-c815c60bf453",
+  "version": "2.0",
+  "name": "Cognosante Automated Test Sample",
+  "url": "https://cognosante.com/",
+  "tests": [{
+    "id": "75bdb234-8df4-4686-bc71-b0b2ca058006",
+    "name": "Leadership and missions test",
+    "commands": [{
+      "id": "ecab614c-a042-44aa-b36a-8bad7f7b2147",
+      "comment": "",
+      "command": "open",
+      "target": "/leadership",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5e08523-10d1-442c-bcbc-d95338b3222e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x950",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfe1a240-2fdf-4a7a-b505-3ac516763cae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpmm_brand_logo_wrap img",
+      "targets": [
+        ["css=.wpmm_brand_logo_wrap img", "css:finder"],
+        ["xpath=//img[@alt='Cognosante']", "xpath:img"],
+        ["xpath=//nav[@id='wp-megamenu-menu-1']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "904b98af-8548-49f4-bf7d-fa41f26d6e8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-6e53385 .elementor-heading-title",
+      "targets": [
+        ["css=.elementor-element-6e53385 .elementor-heading-title", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Transforming lives through mission-driven solutions.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ba3ecc9-1f49-4986-8af2-7b06f6b5d804",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-afcf71c .elementor-heading-title",
+      "targets": [
+        ["css=.elementor-element-afcf71c .elementor-heading-title", "css:finder"],
+        ["xpath=//section[7]/div/div/div/section/div/div/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Our Work in Action')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77d8bcd9-0803-42ce-b425-653d4f9a5981",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Leadership",
+      "targets": [
+        ["linkText=Our Leadership", "linkText"],
+        ["css=#menu-1-80b81e0 > .menu-item-type-custom > .elementor-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Our Leadership')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menu-1-80b81e0']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/leadership/')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/div/nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e47308d9-d423-4ac7-8d9d-c597b036eced",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,94)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4876f26-040e-48ec-927e-b3cb7254f91d",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.image-wrapper",
+      "targets": [
+        ["css=.image-wrapper", "css:finder"],
+        ["xpath=//main[@id='main']/section/div/div", "xpath:idRelative"],
+        ["xpath=//main/section/div/div", "xpath:position"]
+      ],
+      "value": "1191,101"
+    }, {
+      "id": "4cb84734-4fa6-4488-97b3-aa7f18b1f710",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.image-wrapper",
+      "targets": [
+        ["css=.image-wrapper", "css:finder"],
+        ["xpath=//main[@id='main']/section/div/div", "xpath:idRelative"],
+        ["xpath=//main/section/div/div", "xpath:position"]
+      ],
+      "value": "1191,101"
+    }, {
+      "id": "81f00a58-60dd-453e-a42f-1db965631a13",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.image-wrapper",
+      "targets": [
+        ["css=.image-wrapper", "css:finder"],
+        ["xpath=//main[@id='main']/section/div/div", "xpath:idRelative"],
+        ["xpath=//main/section/div/div", "xpath:position"]
+      ],
+      "value": "1191,101"
+    }, {
+      "id": "1e5927c5-794f-4948-a2da-d69ac2f0feef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.image-wrapper",
+      "targets": [
+        ["css=.image-wrapper", "css:finder"],
+        ["xpath=//main[@id='main']/section/div/div", "xpath:idRelative"],
+        ["xpath=//main/section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a017d513-7eb9-4c01-8ac5-9f0a4d51a225",
+      "comment": "",
+      "command": "click",
+      "target": "css=.image-wrapper",
+      "targets": [
+        ["css=.image-wrapper", "css:finder"],
+        ["xpath=//main[@id='main']/section/div/div", "xpath:idRelative"],
+        ["xpath=//main/section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9887c27-ae2e-4c7d-92ee-c346a9a4b802",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wp-megamenu-item-14608 > a",
+      "targets": [
+        ["css=#wp-megamenu-item-14608 > a", "css:finder"],
+        ["xpath=//li[@id='wp-megamenu-item-14608']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cognosante.com/mission')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Mission')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cc2dba8-51b2-4fda-bdcb-ccadca1784ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-5e9c3a2b .elementor-heading-title",
+      "targets": [
+        ["css=.elementor-element-5e9c3a2b .elementor-heading-title", "css:finder"],
+        ["xpath=//section[4]/div/div/div/section/div/div/div/div/div/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce5de077-d821-42d7-a978-badeeb0e9071",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff221b9d-a434-4148-9fac-2efed939c8e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=gform_submit_button_1",
+      "targets": [
+        ["id=gform_submit_button_1", "id"],
+        ["css=#gform_submit_button_1", "css:finder"],
+        ["xpath=//input[@id='gform_submit_button_1']", "xpath:attributes"],
+        ["xpath=//form[@id='gform_1']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7927074a-69b9-4162-b55e-e00584cb7063",
+      "comment": "",
+      "command": "click",
+      "target": "id=gform_1_validation_container",
+      "targets": [
+        ["id=gform_1_validation_container", "id"],
+        ["css=#gform_1_validation_container", "css:finder"],
+        ["xpath=//div[@id='gform_1_validation_container']", "xpath:attributes"],
+        ["xpath=//div[@id='gform_wrapper_1']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d758578a-18e8-43a7-a891-b1f5f97e1b63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-5755b2fb",
+      "targets": [
+        ["css=.elementor-element-5755b2fb", "css:finder"],
+        ["xpath=//section[13]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3f45d26-32ca-4d78-adf1-2cd90e051386",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-5755b2fb",
+      "targets": [
+        ["css=.elementor-element-5755b2fb", "css:finder"],
+        ["xpath=//section[13]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9ecee135-99d2-4092-8226-901af6072845",
+    "name": "Missions page How can we help field validaiton",
+    "commands": [{
+      "id": "5fb08423-9ce1-4d7e-b69d-7aea178d90aa",
+      "comment": "",
+      "command": "open",
+      "target": "https://cognosante.com/mission",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71247d1a-5393-457e-bc3f-7785da5493ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x950",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c00c9d32-575f-4168-a9b9-80d173c714fe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ba0e0fb-c505-4d55-9f84-7998e500de48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-5e9c3a2b .elementor-heading-title",
+      "targets": [
+        ["css=.elementor-element-5e9c3a2b .elementor-heading-title", "css:finder"],
+        ["xpath=//section[4]/div/div/div/section/div/div/div/div/div/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10005356-df33-4824-acf9-01475fa06e0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_2",
+      "targets": [
+        ["id=input_1_2", "id"],
+        ["name=input_2", "name"],
+        ["css=#input_1_2", "css:finder"],
+        ["xpath=//select[@id='input_1_2']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_2']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5da61a7c-ca9f-426f-9a56-8f930979d414",
+      "comment": "",
+      "command": "select",
+      "target": "id=input_1_2",
+      "targets": [],
+      "value": "label=Data and Technology"
+    }, {
+      "id": "047def6d-864f-48c6-a36c-3f705f72a3d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ginput_container_select",
+      "targets": [
+        ["css=.ginput_container_select", "css:finder"],
+        ["xpath=//li[@id='field_1_2']/div", "xpath:idRelative"],
+        ["xpath=//form/div/ul/li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bb4e14c-f4d9-4f74-8fd8-16ae3ab3a20e",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_2",
+      "targets": [
+        ["id=input_1_2", "id"],
+        ["name=input_2", "name"],
+        ["css=#input_1_2", "css:finder"],
+        ["xpath=//select[@id='input_1_2']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_2']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a2b39e1-40f1-4156-b10e-0bfe197a47c6",
+      "comment": "",
+      "command": "select",
+      "target": "id=input_1_2",
+      "targets": [],
+      "value": "label=Federal Civilian Programs (Non Health)"
+    }, {
+      "id": "720bb6e9-dce5-491a-af25-c7a445f81a5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_2",
+      "targets": [
+        ["id=input_1_2", "id"],
+        ["name=input_2", "name"],
+        ["css=#input_1_2", "css:finder"],
+        ["xpath=//select[@id='input_1_2']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_2']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff0ef4d0-82c5-4d84-bcc9-23e7006128fc",
+      "comment": "",
+      "command": "select",
+      "target": "id=input_1_2",
+      "targets": [],
+      "value": "label=Federal Defense Programs (Non Health)"
+    }, {
+      "id": "89842783-fa2a-4bdf-9e71-3442588d4c31",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_2",
+      "targets": [
+        ["id=input_1_2", "id"],
+        ["name=input_2", "name"],
+        ["css=#input_1_2", "css:finder"],
+        ["xpath=//select[@id='input_1_2']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_2']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b8941a6-f6dc-46e6-a43e-bdb07faec2ab",
+      "comment": "",
+      "command": "select",
+      "target": "id=input_1_2",
+      "targets": [],
+      "value": "label=Federal Health Programs"
+    }, {
+      "id": "d34863ee-0050-46f2-a25b-750603a6a809",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_5",
+      "targets": [
+        ["id=input_1_5", "id"],
+        ["name=input_5", "name"],
+        ["css=#input_1_5", "css:finder"],
+        ["xpath=//input[@id='input_1_5']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_5']/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d629d69c-40a5-496b-81e5-818db2dd693b",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_1_5",
+      "targets": [
+        ["id=input_1_5", "id"],
+        ["name=input_5", "name"],
+        ["css=#input_1_5", "css:finder"],
+        ["xpath=//input[@id='input_1_5']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_5']/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "Jane"
+    }, {
+      "id": "12a96683-0e67-4d12-982c-818603085e5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_6",
+      "targets": [
+        ["id=input_1_6", "id"],
+        ["name=input_6", "name"],
+        ["css=#input_1_6", "css:finder"],
+        ["xpath=//input[@id='input_1_6']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_6']/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3194b003-e1d0-495b-b757-bfc9208236f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_1_6",
+      "targets": [
+        ["id=input_1_6", "id"],
+        ["name=input_6", "name"],
+        ["css=#input_1_6", "css:finder"],
+        ["xpath=//input[@id='input_1_6']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_6']/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": "Doe"
+    }, {
+      "id": "76f9f4f8-98c0-40e4-97a1-d510dce67c4b",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_7",
+      "targets": [
+        ["id=input_1_7", "id"],
+        ["name=input_7", "name"],
+        ["css=#input_1_7", "css:finder"],
+        ["xpath=//input[@id='input_1_7']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_7']/div/input", "xpath:idRelative"],
+        ["xpath=//li[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfa9faa5-9dde-4c13-95a7-b9d65ccaee32",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_8",
+      "targets": [
+        ["id=input_1_8", "id"],
+        ["name=input_8", "name"],
+        ["css=#input_1_8", "css:finder"],
+        ["xpath=//textarea[@id='input_1_8']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_8']/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "932791e9-921d-435f-bda2-9b6d31663285",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_1_8",
+      "targets": [
+        ["id=input_1_8", "id"],
+        ["name=input_8", "name"],
+        ["css=#input_1_8", "css:finder"],
+        ["xpath=//textarea[@id='input_1_8']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_8']/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Testing  page "
+    }, {
+      "id": "534d4a39-41fd-4187-9ae6-aa48cfa28517",
+      "comment": "",
+      "command": "click",
+      "target": "id=gform_submit_button_1",
+      "targets": [
+        ["id=gform_submit_button_1", "id"],
+        ["css=#gform_submit_button_1", "css:finder"],
+        ["xpath=//input[@id='gform_submit_button_1']", "xpath:attributes"],
+        ["xpath=//form[@id='gform_1']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c71375f-6af8-4d6d-9bd9-80d861602744",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_6",
+      "targets": [
+        ["id=input_1_6", "id"],
+        ["name=input_6", "name"],
+        ["css=#input_1_6", "css:finder"],
+        ["xpath=//input[@id='input_1_6']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_6']/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20ddb694-e9ab-4885-92d9-f4f66d1ae5a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_5",
+      "targets": [
+        ["id=input_1_5", "id"],
+        ["name=input_5", "name"],
+        ["css=#input_1_5", "css:finder"],
+        ["xpath=//input[@id='input_1_5']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_5']/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd98d7fd-d77e-4705-8a42-03743d39bea7",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_1_5",
+      "targets": [
+        ["id=input_1_5", "id"],
+        ["name=input_5", "name"],
+        ["css=#input_1_5", "css:finder"],
+        ["xpath=//input[@id='input_1_5']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_5']/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "Jane Doe"
+    }, {
+      "id": "7fc1ea7b-be95-4851-b3d4-2a91542eeb42",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_1_6",
+      "targets": [
+        ["id=input_1_6", "id"],
+        ["name=input_6", "name"],
+        ["css=#input_1_6", "css:finder"],
+        ["xpath=//input[@id='input_1_6']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_6']/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77633698-f9f5-4f97-84ec-685ab8bad07c",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_1_6",
+      "targets": [
+        ["id=input_1_6", "id"],
+        ["name=input_6", "name"],
+        ["css=#input_1_6", "css:finder"],
+        ["xpath=//input[@id='input_1_6']", "xpath:attributes"],
+        ["xpath=//li[@id='field_1_6']/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": "JDoe@mailinator.com"
+    }, {
+      "id": "b4f05976-7d73-40fe-817a-6665902c6453",
+      "comment": "",
+      "command": "click",
+      "target": "id=gform_submit_button_1",
+      "targets": [
+        ["id=gform_submit_button_1", "id"],
+        ["css=#gform_submit_button_1", "css:finder"],
+        ["xpath=//input[@id='gform_submit_button_1']", "xpath:attributes"],
+        ["xpath=//form[@id='gform_1']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2e059bf-349a-4f9f-8405-c01b412ac3ca",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=gform_submit_button_1",
+      "targets": [
+        ["id=gform_submit_button_1", "id"],
+        ["css=#gform_submit_button_1", "css:finder"],
+        ["xpath=//input[@id='gform_submit_button_1']", "xpath:attributes"],
+        ["xpath=//form[@id='gform_1']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5199476e-2331-478e-bf96-e95977d8634b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=gform_submit_button_1",
+      "targets": [
+        ["id=gform_submit_button_1", "id"],
+        ["css=#gform_submit_button_1", "css:finder"],
+        ["xpath=//input[@id='gform_submit_button_1']", "xpath:attributes"],
+        ["xpath=//form[@id='gform_1']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "44621c98-fcc0-4ed8-9985-16e40a215230",
+    "name": "Cognosante Home page ",
+    "commands": [{
+      "id": "919f3a04-82ab-4c75-9bf6-26e0ace91f9f",
+      "comment": "",
+      "command": "open",
+      "target": "https://cognosante.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67711a5f-05c2-4a34-9ee6-bee6e00b4126",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x950",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7595c427-1d69-4915-bb96-0772e34c7953",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpmm_brand_logo_wrap img",
+      "targets": [
+        ["css=.wpmm_brand_logo_wrap img", "css:finder"],
+        ["xpath=//img[@alt='Cognosante']", "xpath:img"],
+        ["xpath=//nav[@id='wp-megamenu-menu-1']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e676e53-dc03-4a5f-ac4e-5fe53f5ff6b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wp-megamenu-item-14608 > a",
+      "targets": [
+        ["css=#wp-megamenu-item-14608 > a", "css:finder"],
+        ["xpath=//li[@id='wp-megamenu-item-14608']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cognosante.com/mission')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Mission')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aa51f76-b9c5-4211-a22b-84743c6915c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Capabilities",
+      "targets": [
+        ["linkText=Our Capabilities", "linkText"],
+        ["css=#wp-megamenu-item-13157 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Capabilities')]", "xpath:link"],
+        ["xpath=//li[@id='wp-megamenu-item-13157']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/our-capabilities')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Capabilities ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6a9e14c-1789-4259-8be8-94eab0675487",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wp-megamenu-item-14610 > a",
+      "targets": [
+        ["css=#wp-megamenu-item-14610 > a", "css:finder"],
+        ["xpath=//li[@id='wp-megamenu-item-14610']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cognosante.com/impact')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Impact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f932237-9448-405b-8a01-68482740fe5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Solutions",
+      "targets": [
+        ["linkText=Our Solutions", "linkText"],
+        ["css=#wp-megamenu-item-13149 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Solutions')]", "xpath:link"],
+        ["xpath=//li[@id='wp-megamenu-item-13149']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cognosante.com/our-solutions')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Solutions ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f7c868d-d86d-4f66-b4b2-7544896d8fac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Careers",
+      "targets": [
+        ["linkText=Our Careers", "linkText"],
+        ["css=#wp-megamenu-item-15162 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Careers')]", "xpath:link"],
+        ["xpath=//li[@id='wp-megamenu-item-15162']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cognosante.com/our-opportunities')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Careers ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f90fc589-58c4-4530-80ac-bd8a883bfd3d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=#wp-megamenu-item-13136 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//li[@id='wp-megamenu-item-13136']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[22]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4950fca4-5c75-4abe-b47a-1c19929990da",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wp-megamenu-item-14608 > a",
+      "targets": [
+        ["css=#wp-megamenu-item-14608 > a", "css:finder"],
+        ["xpath=//li[@id='wp-megamenu-item-14608']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cognosante.com/mission')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Mission')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e1167a0-51e3-40f8-a4d6-73e5f6e35b4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-5e9c3a2b .elementor-heading-title",
+      "targets": [
+        ["css=.elementor-element-5e9c3a2b .elementor-heading-title", "css:finder"],
+        ["xpath=//section[4]/div/div/div/section/div/div/div/div/div/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18c6f150-2503-4e87-9bf8-35fc28f857da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Capabilities",
+      "targets": [
+        ["linkText=Our Capabilities", "linkText"],
+        ["css=#wp-megamenu-item-13157 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Capabilities')]", "xpath:link"],
+        ["xpath=//li[@id='wp-megamenu-item-13157']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/our-capabilities')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Capabilities ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1dbd009-21ac-41c0-8299-6ca1fd2db8a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-da43518",
+      "targets": [
+        ["css=.elementor-element-da43518", "css:finder"],
+        ["xpath=//main[@id='content']/div/div/section[4]", "xpath:idRelative"],
+        ["xpath=//section[4]", "xpath:position"],
+        ["xpath=//section[contains(.,'Moving your mission forward...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c560cd23-61a3-474e-ad45-f2a770ed5a16",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wp-megamenu-item-14610 > a",
+      "targets": [
+        ["css=#wp-megamenu-item-14610 > a", "css:finder"],
+        ["xpath=//li[@id='wp-megamenu-item-14610']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cognosante.com/impact')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Impact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d16e76fe-9e74-4d01-8d35-11a6eafc12bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-73eafd20 .elementor-heading-title",
+      "targets": [
+        ["css=.elementor-element-73eafd20 .elementor-heading-title", "css:finder"],
+        ["xpath=//div[2]/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Active-Duty and Civilian Personnel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea6c719b-e83e-4e83-8a04-20069ddcfb5f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Solutions",
+      "targets": [
+        ["linkText=Our Solutions", "linkText"],
+        ["css=#wp-megamenu-item-13149 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Solutions')]", "xpath:link"],
+        ["xpath=//li[@id='wp-megamenu-item-13149']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cognosante.com/our-solutions')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Solutions ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d971e6e-c8e4-499a-bab9-7008976d658f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-a149856 > .elementor-widget-wrap",
+      "targets": [
+        ["css=.elementor-element-a149856 > .elementor-widget-wrap", "css:finder"],
+        ["xpath=//main[@id='content']/div/div/section[5]/div/div/div/section/div/div/div", "xpath:idRelative"],
+        ["xpath=//section[5]/div/div/div/section/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6eb42e5-3b29-42b3-bf73-8a3c2549c036",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Careers",
+      "targets": [
+        ["linkText=Our Careers", "linkText"],
+        ["css=#wp-megamenu-item-15162 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Careers')]", "xpath:link"],
+        ["xpath=//li[@id='wp-megamenu-item-15162']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cognosante.com/our-opportunities')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Careers ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8c9c5e6-3818-421a-840d-1e1760865ca3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-0669220 > .elementor-widget-wrap",
+      "targets": [
+        ["css=.elementor-element-0669220 > .elementor-widget-wrap", "css:finder"],
+        ["xpath=//section[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2249d1fe-cd5d-47b4-95b9-012aaa7ba943",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=#wp-megamenu-item-13136 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//li[@id='wp-megamenu-item-13136']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[22]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d54cbb86-f190-4449-bc03-cf9a2cbae206",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-4a8d5f57 > .elementor-widget-wrap",
+      "targets": [
+        ["css=.elementor-element-4a8d5f57 > .elementor-widget-wrap", "css:finder"],
+        ["xpath=//li[@id='wp-megamenu-item-1.01734788047E+19']/ul/li/div/section/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "10250a03-f3f6-4188-9a44-22135ed9fa1a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["75bdb234-8df4-4686-bc71-b0b2ca058006"]
+  }],
+  "urls": ["https://cognosante.com/"],
+  "plugins": []
+}
